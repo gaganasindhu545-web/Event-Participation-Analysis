@@ -17,6 +17,34 @@ This project analyzes student participation in college events using data mining 
   - Occasional participants
   - Less interested students
 
-## Files Included
-- Project PPT
-- Output Screenshots
+## Dataset
+The dataset contains student event participation details with some missing values.
+It is used as the input for further preprocessing and analysis.
+![Dataset](sampledataset.png)
+
+## MeanMethod(Preprocessing)
+Missing numerical values are replaced with average values.
+The dataset becomes complete and ready for processing.
+![Meanmethod](Meanmethod.png)
+
+## Normalization
+Data values are scaled to a common range (0 to 1).
+This helps in improving the accuracy of algorithms.
+![Normalization](Normalization.png)
+
+## Classification (J48 Algorithm)
+Classification is used to predict student participation (Yes/No).
+The model achieved 94% accuracy, showing good performance.
+![Classification](Classification.png)
+
+## Clustering (K-Means)
+Students are grouped into 3 clusters based on participation behavior:
+Highly active participants
+Occasional participants
+Less interested students
+![Clustering](Clustering.png)
+
+## Data_Visualization
+Visualization shows the relationship between attendance and interest level.
+It helps to understand patterns in student participation.
+![Data_Visualization](Data_Visualization)
