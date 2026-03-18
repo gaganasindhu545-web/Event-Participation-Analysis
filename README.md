@@ -25,7 +25,7 @@ It is used as the input for further preprocessing and analysis.
 ## MeanMethod(Preprocessing)
 Missing numerical values are replaced with average values.
 The dataset becomes complete and ready for processing.
-![Meanmethod](Meanmethod.jpeg)
+![Meanmethod](MeanMethod.jpeg)
 
 ## Normalization
 Data values are scaled to a common range (0 to 1).
