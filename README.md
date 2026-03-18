@@ -20,7 +20,7 @@ This project analyzes student participation in college events using data mining 
 ## Dataset
 The dataset contains student event participation details with some missing values.
 It is used as the input for further preprocessing and analysis.
-![Dataset](sampledataset.jpeg)
+![Dataset](Sampledataset.csv)
 
 ## MeanMethod(Preprocessing)
 Missing numerical values are replaced with average values.
